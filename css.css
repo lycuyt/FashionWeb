@@ -1,0 +1,23 @@
+.white{
+    color: #ffffff;
+}
+.form{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+.center{
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-items: center;
+    align-self:center;
+}
+.customboder {
+    border: 2px solid #fffdfd; /* Viền có độ dày 2px và màu đen */
+    border-radius: 20px;
+}
+.customboder-button{
+    border: 2px double #fffdfd; /* Viền có độ dày 2px và màu đen */
+    border-radius: 30px;
+}
