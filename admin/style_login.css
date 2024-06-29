@@ -1,0 +1,50 @@
+/* login */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+    background: linear-gradient(90deg, rgb(231, 132, 157) 0%, rgb(235, 157, 190) 35%, rgb(226, 155, 179) 100%);
+   
+
+}
+form{
+    border-radius: 20px;
+    margin-top: 150px !important;
+    width: 24% !important;  
+    background-color: white !important;
+    padding: 50px;
+}
+
+.btn-primary{
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgb(248, 129, 159) 0%, rgb(197, 116, 150) 35%, rgb(170, 124, 140) 100%);
+    
+}
+
+.form-control{
+    color: rgba(0,0,0,.87);
+    border-bottom-color: rgba(0,0,0,.42);
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+    }
+ h4{
+    font-size: 2rem !important;
+    font-weight: 700;
+ }  
+ .form-label{
+    font-weight: 400 !important;
+ }
+@media only screen and (max-width: 600px) {
+    form {
+        width: 100% !important;
+    }
+  }

@@ -21,3 +21,67 @@
     border: 2px double #fffdfd; /* Viền có độ dày 2px và màu đen */
     border-radius: 30px;
 }
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.input{
+    display: block;
+    margin-left: 40%;
+}
+.header1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 5px;
+    color: #45a049;
+}
+.error {
+  color: red;
+}
+
+form {
+  margin: 20px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="date"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
